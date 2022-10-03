@@ -1,0 +1,32 @@
+.about-us
+{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    padding-top: 200px;
+    position: fixed;
+    transition: .4s;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 1270px) {
+    .about-us{
+       max-width: 200px;
+       font-size: 12px;
+     }
+   }
+   @media screen and (max-width: 1150px) {
+    .about-us{
+       display: none;
+     }
+   }
+
+.about-us:hover{
+    color: rgb(194, 1, 107); 
+}
+
+.about-us-p
+{
+ text-align: center;
+}

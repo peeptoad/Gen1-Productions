@@ -1,0 +1,20 @@
+.contact-us
+{
+    text-align: center;
+}
+
+.contact-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: fit-content;
+    align-items: center;
+    margin: auto;
+}
+
+.icon
+{
+    margin-top: 12px;
+    width: 40px;
+}

@@ -1,0 +1,27 @@
+body
+{
+    color: rgb(68, 68, 68);
+    background-color: rgba(0, 255, 242, 0.868);
+    height: 10000px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+hr
+{
+    border: solid rgba(0, 0, 0, 0);
+    width: 30px;
+    height: 2px;
+    border-radius: 25px;
+    background-color: rgb(193, 0, 80);
+    box-shadow: 1px 1px rgba(0, 32, 34, 0.612);
+}
+
+.hr2
+{
+    width: 200px;
+}
+
+#upComingId, #pastEventsId, #contactUsId
+{
+    scroll-margin-top: 120px;
+}

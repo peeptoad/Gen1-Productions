@@ -1,0 +1,46 @@
+.past-events
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 750px;
+    margin: auto;
+
+
+
+}
+
+.past-event-title
+{
+    display: block;
+    text-align: center;   
+}
+
+.past-event-preview
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: fit-content;
+    background-color: rgba(0, 217, 255, 0.84);
+    padding: 4px;
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 2px 2px rgba(0, 103, 109, 0.248);
+}
+
+@media screen and (max-width: 370px) {
+    .past-event-preview{
+       width: 200px;
+       font-size: 12px;
+     }
+   }
+
+.past-event-preview:hover
+{
+    background-color: rgb(0, 204, 240);
+    box-shadow: 1px 1px rgba(0, 154, 162, 0.308);
+}
